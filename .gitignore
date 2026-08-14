@@ -1,0 +1,32 @@
+# ==== Ambiente / Segredos ====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==== Frontend (Next.js) ====
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ==== Backend (Python/FastAPI) ====
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# ==== Docker ====
+docker-compose.override.yml
+
+# ==== Sistema Operacional / Editor ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
