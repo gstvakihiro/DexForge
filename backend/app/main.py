@@ -12,12 +12,15 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.db.database import get_db
+from app.routers import auth
 
 app = FastAPI(
     title="DexForge API",
     description="Backend da DexForge — uma Pokédex completa.",
     version="0.1.0",
 )
+
+app.include_router(auth.router)
 
 # Libera o frontend (rodando em outra porta) a fazer requisições pra essa API
 app.add_middleware(
