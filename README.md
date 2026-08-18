@@ -7,7 +7,9 @@ Uma Pokédex completa, construída como projeto de portfólio full stack — bus
 ## Stack
 
 **Frontend:** Next.js · TypeScript · Tailwind CSS · shadcn/ui · TanStack Query
+
 **Backend:** FastAPI · SQLAlchemy · PostgreSQL · Redis · JWT + OAuth Google
+
 **Infra:** Docker · GitHub Actions · Vercel · Railway · Neon · Upstash
 
 ## Status do desenvolvimento
