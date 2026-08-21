@@ -14,7 +14,7 @@ Uma Pokédex completa, construída como projeto de portfólio full stack — bus
 
 ## Status do desenvolvimento
 
-- [ ] Fase 1 — Base e Autenticação
+- [x] Fase 1 — Base e Autenticação
 - [ ] Fase 2 — Busca e Detalhes
 - [ ] Fase 3 — Favoritos e Coleção
 - [ ] Fase 4 — Comparador e Team Builder
