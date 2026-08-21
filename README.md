@@ -1,5 +1,7 @@
 # DexForge 🔴
 
+![CI](https://github.com/gstvakihiro/DexForge/actions/workflows/ci.yml/badge.svg)
+
 > 🚧 **Projeto em construção.** Acompanhe o progresso pelas fases abaixo.
 
 Uma Pokédex completa, construída como projeto de portfólio full stack — busca, coleção pessoal, comparador, team builder e muito mais.
